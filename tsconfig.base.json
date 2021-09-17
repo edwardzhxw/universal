@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@italki/icons": ["packages/icons/src/index.ts"],
+      "@universal/lightyear": ["packages/lightyear/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
